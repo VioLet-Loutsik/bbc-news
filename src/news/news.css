@@ -1,0 +1,12 @@
+
+.newsBlock{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+/* height: 350px; */
+margin: 10px 120px;
+}
+/* .newsBlockTemplate{
+
+} */
+
+
