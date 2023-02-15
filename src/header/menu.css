@@ -1,0 +1,233 @@
+.menubottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    width: fit-content;
+  }
+.menuList {
+    position: relative;
+    /* width: 40px; */
+    margin: 0 30px;
+    padding-bottom: 10px;
+    /* border: 2px solid rgb(12, 187, 15); */
+  }
+  .menuList::before {
+    content: " ";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: rgb(218, 218, 226);
+    left: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: left;
+  }
+  .menuList:hover::before {
+    transform: scale(1.1);
+  }
+  
+
+
+/* MENU */
+.menutop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.211);
+    /* border: 2px solid rgb(187, 12, 12); */
+  }
+  
+  /* liSt*/
+  
+  .menuList {
+    position: relative;
+    margin: 0 10px;
+    vertical-align: baseline;
+    bottom: -0.34rem;
+        /* border: 2px solid rgb(12, 187, 15); */
+  }
+  
+  .menuList::before {
+    content: " ";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: rgb(218, 218, 226);
+    left: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: left;
+  }
+  
+  .menuList:hover::before {
+    transform: scale(1.1);
+  }
+  
+  /* hidden menu */
+  .threeDots {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+  }
+  
+  .blockDots {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    /* border: 2px solid red; */
+  }
+  
+  .blockDots::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0.5px;
+    background: white;
+    left: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: left;
+  }
+  
+  .blockDots:hover::before {
+    transform: scale(1);
+  }
+  
+  .dot {
+    width: 5px;
+    height: 5px;
+    margin: 4px;
+    background-color: aliceblue;
+  }
+  
+  .hiddenstate {
+    display: none;
+  }
+  
+  .visiblestate {
+    background-color: black;
+    color: aliceblue;
+    list-style-type: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.211);
+    padding: 17px;
+    /* border: 2px solid rgb(12, 187, 15); */
+  }
+  
+  /* hidden menu */
+  .threeDots {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+  }
+  .blockDots {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    /* border: 2px solid red; */
+  }
+  
+  .blockdots::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0.5px;
+    background: white;
+    left: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: left;
+  }
+  
+  .blockdots:hover::before {
+    transform: scale(1);
+  }
+  
+  .dot {
+    width: 5px;
+    height: 5px;
+    margin: 4px;
+    background-color: aliceblue;
+  }
+  
+  .hiddenstate {
+    display: none;
+  }
+  
+  .visiblestate {
+    background-color: black;
+    color: aliceblue;
+    list-style-type: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.211);
+    padding: 17px;
+    /* border: 2px solid rgb(12, 187, 15); */
+  }
+
+  #menuReel{
+    display: none;
+  }
+  #menuWorklife{
+    display: none;
+  }
+  #menuTravel{
+    display: none;
+  }
+  #menuFuture{
+    display: none;
+  }
+  #menuCulture{
+    display: none;
+  }
+ 
+
+  @media (max-width: 1000px) {
+    #menuCultureBottom{
+        display: none;
+    }
+    #menuCulture{
+        display: block;
+      }
+
+  }
+  @media (max-width: 930px) {
+    #menuFutureBottom{
+        display: none;
+    }
+    #menuFuture{
+        display: block;
+      }
+  }
+  @media (max-width: 870px) {
+    #menuTravelBottom{
+        display: none;
+    }
+    #menuTravel{
+        display: block;
+      }
+  }
+  @media (max-width: 800px) {
+    #menuWorklifeBottom{
+        display: none;
+    }
+    #menuWorklife{
+        display: block;
+      }
+  }
+  @media (max-width: 730px) {
+    #menuReelBottom{
+        display: none;
+    }
+    #menuReel{
+        display: block;
+      }
+  }

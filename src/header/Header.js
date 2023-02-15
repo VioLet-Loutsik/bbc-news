@@ -1,4 +1,5 @@
 import "./header.css";
+import "./menu.css";
 import logoBbc from "../images/bbc-logo.jpg";
 import iconSignIn from "../images/signIcon.jpg";
 // import iconSearch from "../images/searchIcon.jpg";
@@ -24,14 +25,14 @@ const Header = () => {
           <p className="signIn">Sign in</p>
         </div>
         <ul className="menutop">
-          <li className="menuList">Home</li>
-          <li className="menuList">News</li>
-          <li className="menuList">Sport</li>
-          <li className="menuList">Reel</li>
-          <li className="menuList">Worklife</li>
-          <li className="menuList">Travel</li>
-          <li className="menuList">Future</li>
-          <li className="menuList">Culture</li>
+          <li className="menuList" id="menuHomeSecondBottom">Home</li>
+          <li className="menuList" id="menuNewsBottom">News</li>
+          <li className="menuList" id="menuSportBottom">Sport</li>
+          <li className="menuList" id="menuReelBottom">Reel</li>
+          <li className="menuList" id="menuWorklifeBottom">Worklife</li>
+          <li className="menuList" id="menuTravelBottom">Travel</li>
+          <li className="menuList" id="menuFutureBottom">Future</li>
+          <li className="menuList" id="menuCultureBottom">Culture</li>
         </ul>
         <div>
           <div className="threeDots" onClick={functionShowMenu}>
@@ -54,9 +55,14 @@ const Header = () => {
       </div>
       <div className={hiddenblocks}>
         <ul className="menubottom">
-          <li className="menuList">TV</li>
-          <li className="menuList">Weather</li>
-          <li className="menuList">Sounds</li>
+          <li className="menuList" id="menuReel">Reel</li>
+          <li className="menuList" id="menuWorklife">Worklife</li>
+          <li className="menuList" id="menuTravel">Travel</li>
+          <li className="menuList" id="menuFuture">Future</li>
+          <li className="menuList" id="menuCulture">Culture</li>
+          <li className="menuList" id="menuTV">TV</li>
+          <li className="menuList" id="menuWeather">Weather</li>
+          <li className="menuList" id="menuSounds">Sounds</li>
         </ul>
       </div>
     </div>
