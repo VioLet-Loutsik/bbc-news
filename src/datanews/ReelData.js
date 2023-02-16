@@ -1,14 +1,11 @@
-import news1 from '../images/news1.jpg';
-import news2 from '../images/news2.jpg';
-import news3 from '../images/news3.jpg';
-import news4 from '../images/news4.jpg';
-import news5 from '../images/news5.jpg';
+import news1 from '../images/reel1.jpg';
+import news2 from '../images/reel2.jpg';
+import news3 from '../images/reel3.jpg';
 
 
 
 
-
-export const ReelData = [
+export const reelData = [
     {
         image: news1,
         title: 'Germany to send tanks to Ukrain',

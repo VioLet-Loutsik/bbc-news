@@ -1,4 +1,4 @@
-import "./newsBlockTemplate.css"
+import "./newsBlockTemplate.css";
 
 const NewsBlockTemplate = ({ image, title, description, text }) => {
   return (
@@ -7,9 +7,9 @@ const NewsBlockTemplate = ({ image, title, description, text }) => {
         <img src={image} alt="NO IMAGE" className="newsBlockImg" />
       </div>
       <div>
-      <h2 className="classTitle">{title}</h2>
-      <p className="classDescription">{description}</p>
-      <p className="classText">{text}</p>
+        <h2 className="classTitle">{title}</h2>
+        <p className="classDescription">{description}</p>
+        <p className="classText">{text}</p>
       </div>
     </div>
   );

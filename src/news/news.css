@@ -8,5 +8,9 @@ margin: 10px 120px;
 /* .newsBlockTemplate{
 
 } */
+@media (max-width: 1200px) {
+    .newsBlock{
+        margin: 0 0;
+}
 
-
+}

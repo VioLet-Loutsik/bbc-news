@@ -35,16 +35,16 @@
 @media (max-width: 1200px) {
   .welcomeBlock {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0 0;
   }
   .leftBlockNews,
-  .rightBlockNews
-  {
+  .rightBlockNews {
     width: 100%;
   }
 }
 
 @media (max-width: 768px) {
-  .classDayTime{
+  .classDayTime {
     display: none;
   }
 }

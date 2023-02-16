@@ -18,7 +18,7 @@ const News = () => {
   return (
     <>
       <div className="classDayTime">
-        <p className="titleHeader">News</p>      
+        <p className="titleHeader">News</p>
       </div>
       <div className="newsBlock">{newsPage}</div>
     </>

@@ -1,0 +1,33 @@
+.reelText {
+  position: absolute;
+  padding-left: 8%;
+  padding-top: 2%;
+  color: white;
+  font-size: 22px;
+}
+
+.classReel {
+  display: flex;
+  height: 450px;
+}
+
+.classReelBlock {
+    position: absolute;
+    display: flex;
+    top: 25%; 
+    gap: 3%;
+    margin: 0 8%;  
+}
+
+.blockRelativReel{
+    position: relative;
+}
+
+@media (max-width: 500px){
+    .classReelBlock {
+        flex-direction: column;
+        margin: 0 0;
+        top: 25%; 
+        gap: 0;
+}
+}

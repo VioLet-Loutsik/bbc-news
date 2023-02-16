@@ -2,6 +2,7 @@ import './App.css';
 import Header from './header/Header'
 import Welcome from './welcome/Welcome';
 import News from './news/News';
+import Reel from './reel/Reel';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Welcome />
       <News /> 
-      <News />     
+      <News />
+      <Reel />     
     </div>
   );
 }
