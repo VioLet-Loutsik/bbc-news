@@ -3,6 +3,7 @@ import Header from './header/Header'
 import Welcome from './welcome/Welcome';
 import News from './news/News';
 import Reel from './reel/Reel';
+import EditorPicks from './editorPicks/EditorPicks';
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
       <Welcome />
       <News /> 
       <News />
-      <Reel />     
+      <Reel />  
+      <EditorPicks />   
     </div>
   );
-}
+};
 
 export default App;
