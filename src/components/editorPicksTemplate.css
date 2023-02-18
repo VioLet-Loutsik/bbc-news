@@ -1,0 +1,22 @@
+.editorsFirstNews{
+    position: relative;
+}
+
+.imageEditorPick{
+    border: 2px solid red;
+}
+.imageEditorText{
+    position: absolute;
+    bottom: 6%;
+    left: 3%;
+    color: aliceblue;
+    font-size: large;
+    line-height: 200%;
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+}
+@media (max-width: 1200px) {
+    .imageEditorText{
+        position: relative;
+        color: black;
+}
+}

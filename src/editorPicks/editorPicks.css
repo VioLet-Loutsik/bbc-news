@@ -1,0 +1,64 @@
+.picksBlock {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 10px 120px;
+}
+
+.businessNews {
+  margin-left: 30px;
+  height: 640px;
+}
+.headerBusinessNews {
+  background-color: #e91802;
+  color: aliceblue;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+}
+.classUl {
+  background-color: #e91802;
+  list-style-type: none;
+}
+.blockSpanFirst{
+    position: relative;
+    background: #363636;
+    
+}
+.blockSpanSecond{
+    position: relative;
+    background: #2a2a2a;
+
+}
+.spanStyle {
+  position: absolute;
+  top: 30%;
+  left: 4%;
+  float: left;
+  color: #fff;
+  background-color: #e91802;
+  font-style: italic;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+.firstLi {
+  background: #363636;
+  color: #d3d3d3;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 4rem;
+  font-size: 20px;
+  padding: 30px 20px 30px 5px;
+}
+.secondLi {
+  color: #d3d3d3;
+  background: #2a2a2a;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 4rem;
+  font-size: 20px;
+  padding: 30px 20px 30px 5px;
+}
