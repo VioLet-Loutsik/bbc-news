@@ -1,6 +1,6 @@
 import { futurePlanetData } from "../datanews/FuturePlanetData";
 import ReelBlockTemplate from "../components/ReelBlockTemplate";
-import "../reel/reel.css";
+import "./futurePlanet.css";
 import planetFont from "../images/planetFont.jpg";
 
 const Reel = () => {
@@ -19,11 +19,11 @@ const Reel = () => {
   return (
     <div className="blockRelativReel">
           <div className="reelText">
-        <h1>REEL</h1>
-        <p>The most amazing videos from the BBC</p>
+        <h3>Future Planet</h3>
+        <p>Solutions for a sustainable world</p>
       </div>
       <div className="classReel">
-        <img src={planetFont} alt="NO IMAGE" />
+        <img src={planetFont} alt="NO IMAGE" className="imageShadow"/>
       </div>
       <div className="classReelBlock">{newsReelData}</div>
     </div>
