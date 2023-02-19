@@ -2,9 +2,6 @@
     position: relative;
 }
 
-.imageEditorPick{
-    border: 2px solid red;
-}
 .imageEditorText{
     position: absolute;
     bottom: 6%;

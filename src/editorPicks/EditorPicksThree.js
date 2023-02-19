@@ -1,9 +1,9 @@
-import { editorDataTwo } from "../datanews/EditorDataTwo";
+import { editorDataThree } from "../datanews/EditorDataThree";
 import NewsBlockTemplate from "../components/NewsBlockTemplate";
 
 
-const EditorPicksOne = () => {
-  const newEditorPicksTwo = editorDataTwo.map((e) => {
+const EditorPicksThree = () => {
+  const newEditorPicksThree = editorDataThree.map((e) => {
     return (
       <NewsBlockTemplate
         image={e.image}
@@ -16,8 +16,8 @@ const EditorPicksOne = () => {
   });
   return (
     <div >
-      <div className="classBlocksPicksTwo">{newEditorPicksTwo}</div>
+      <div className="classBlocksPicksTwo">{newEditorPicksThree}</div>
     </div>
   );
 };
-export default EditorPicksOne;
+export default EditorPicksThree;

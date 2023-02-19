@@ -1,11 +1,21 @@
 .picksBlock {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin: 10px 120px;
+  margin: 10px 130px;
+}
+.classBlocksPicksTwo{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
+
+
+
+
+
+
 .businessNews {
-  margin-left: 30px;
+  margin-left: 20px;
   height: 640px;
 }
 .headerBusinessNews {
@@ -37,10 +47,11 @@
   color: #fff;
   background-color: #e91802;
   font-style: italic;
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 40px;
   border-radius: 50%;
   text-align: center;
+  padding-top: 10px;
 }
 
 

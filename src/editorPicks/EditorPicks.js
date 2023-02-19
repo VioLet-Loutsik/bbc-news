@@ -1,6 +1,8 @@
 import React from "react";
 import EditorPicksOne from "./EditorPicksOne";
 import EditorPicksTwo from "./EditorPicksTwo";
+import EditorPicksThree from "./EditorPicksThree";
+
 import "./editorPicks.css";
 
 function EditorPicks() {
@@ -16,6 +18,9 @@ function EditorPicks() {
           </div>
           <div className="pickTwo">
             <EditorPicksTwo />
+          </div>
+          <div className="pickTwo">
+            <EditorPicksThree />
           </div>
         </div>
         <div className="businessNews">

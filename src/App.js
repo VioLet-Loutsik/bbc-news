@@ -3,7 +3,9 @@ import Header from './header/Header'
 import Welcome from './welcome/Welcome';
 import News from './news/News';
 import Reel from './reel/Reel';
+import Sport from './sport/Sport';
 import EditorPicks from './editorPicks/EditorPicks';
+import FuturePlanet from './futurePlanet/FuturePlanet';
 
 
 function App() {
@@ -12,9 +14,10 @@ function App() {
       <Header />
       <Welcome />
       <News /> 
-      <News />
+      <Sport />
       <Reel />  
-      <EditorPicks />   
+      <EditorPicks /> 
+      <FuturePlanet />  
     </div>
   );
 };

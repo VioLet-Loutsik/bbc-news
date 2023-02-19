@@ -1,7 +1,6 @@
-import './editorPicksTemplate.css';
+import "./editorPicksTemplate.css";
 
-
-const EditorPicksTemplate = ({ image, title, description, text }) => {
+const EditorPicksTemplate = ({ image, title, description, text, id }) => {
   return (
     <div>
       <div className="editorsFirstNews">

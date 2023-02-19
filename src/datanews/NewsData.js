@@ -6,22 +6,22 @@ import news8 from '../images/news8.jpg';
 export const newsData = [
     {
         image: news6,
-        title: 'Russia planning offensive, says Ukraine',
-        description: 'Germany hs been under pressure pver its.',
+        title: 'Syrian earthquake victims being sent home from Turkey for burial',
+        description: 'How are you leaving me behind? You were the only reason that I stayed alive... How can I breathe now?.',
         text: 'Europe',
         id: 1,
     },
     {
         image: news7,
-        title: 'Russia planning offensive, says Ukraine',
-        description: 'Germany hs been under pressure pver its .',
+        title: 'Tense US-China meeting deepens balloon row',
+        description: 'Germany has been under pressure over its .',
         text: 'Asia',
         id: 2,
     },
     {
         image: news8,
         title: 'Russia planning offensive, says Ukraine',
-        description: 'Germany hs been under pressure pver its.Germany hs been under pressure pver itsGermany hs been under pressure pver its',
+        description: 'The US has "formally determined" that Russia had committed crimes against humanity in Ukraine',
         text: 'Europe',
         id: 3,
     },
