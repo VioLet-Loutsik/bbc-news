@@ -8,8 +8,8 @@ const SmallTemplate = ({ image, title, text, number }) => {
         <img src={image} alt="NO IMAGE" className="smallImageNews" />
       </div>
       <div className="whiteTextSmallBlock">
-        <h4>{title}</h4>
-        <h5>{text}</h5>
+        <h4 className="titleStyle">{title}</h4>
+        <h6 className="textStyle">{text}</h6>
       </div>
     </div>
   );

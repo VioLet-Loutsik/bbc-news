@@ -19,7 +19,7 @@ function EditorPicks() {
           <div className="pickTwo">
             <EditorPicksTwo />
           </div>
-          <div className="pickTwo">
+          <div className="pickThree">
             <EditorPicksThree />
           </div>
         </div>

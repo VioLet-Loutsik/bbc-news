@@ -6,8 +6,8 @@ import news8 from '../images/news8.jpg';
 export const newsData = [
     {
         image: news6,
-        title: 'Syrian earthquake victims being sent home from Turkey for burial',
-        description: 'How are you leaving me behind? You were the only reason that I stayed alive.',
+        title: 'Syrian earthquake victims sent home from Turkey',
+        description: 'How are you leaving me behind?',
         text: 'Europe',
         id: 1,
     },

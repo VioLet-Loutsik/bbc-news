@@ -8,7 +8,7 @@ export const editorDataTwo = [
     image: editorFirst,
     title: "The secret to a good fastelavnsboller",
     description:
-      "Most seasons in Denmark have a cake or bread associated with them.",
+      "Most seasons in Denmark have a cake or bread",
     text: "Travel",
     id: 1,
   },
@@ -16,7 +16,7 @@ export const editorDataTwo = [
     image: editorSecond,
     title: "Will we ever be able to predict earthquakes?",
     description:
-      "The unfolding tragedy - how unexpectedly earthquakes can strike.",
+      "How unexpectedly earthquakes can strike",
     text: "Future",
     id: 2,
   },
@@ -24,7 +24,7 @@ export const editorDataTwo = [
     image: editorThird,
     title: "The adults celebrating child-free lives",
     description:
-      "The child-free movement is booming - but so is the backlash",
+      "The child-free movement is booming ",
     text: "Worklife",
     id: 3,
   }, 

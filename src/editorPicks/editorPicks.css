@@ -1,23 +1,21 @@
 .picksBlock {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin: 10px 130px;
+  margin: 10px 120px;
+  /* border: 2px solid red; */
 }
-.classBlocksPicksTwo{
+.classBlocksPicksTwo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+  margin: 10px 0 0 0;
 }
-
-
-
-
-
-
 
 .businessNews {
   margin-left: 20px;
   height: 640px;
 }
+
 .headerBusinessNews {
   background-color: #e91802;
   color: aliceblue;
@@ -25,19 +23,19 @@
   text-transform: uppercase;
   font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
 }
+
 .classUl {
   background-color: #e91802;
   list-style-type: none;
 }
-.blockSpanFirst{
-    position: relative;
-    background: #363636;
-    
-}
-.blockSpanSecond{
-    position: relative;
-    background: #2a2a2a;
 
+.blockSpanFirst {
+  position: relative;
+  background: #363636;
+}
+.blockSpanSecond {
+  position: relative;
+  background: #2a2a2a;
 }
 .spanStyle {
   position: absolute;
@@ -47,13 +45,12 @@
   color: #fff;
   background-color: #e91802;
   font-style: italic;
-  height: 30px;
+  height: 40px;
   width: 40px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 9px;
 }
-
 
 .firstLi {
   background: #363636;
@@ -72,4 +69,26 @@
   margin-left: 4rem;
   font-size: 20px;
   padding: 30px 20px 30px 5px;
+}
+
+@media (max-width: 1200px) {
+  .picksBlock {
+    margin: 10px 0px;
+  }
+}
+@media(max-width: 768px) {
+  .picksBlock {
+    display: flex;
+    flex-direction: column;
+  }
+  .firstLi, .secondLi {
+margin-left: 25%;
+}
+.spanStyle{
+  left: 10%;
+}
+.businessNews {
+  margin-left: 0px;
+  margin-top: 10px;
+}
 }

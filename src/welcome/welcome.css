@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  margin: 10px 130px;
+  margin: 10px 120px;
   color: aliceblue;
 }
 .classDayTimeWelcomeBlock {
@@ -20,7 +20,7 @@
   font-size: 23px;
   font-weight: 500;
   color: rgb(107, 106, 106);
-  margin: 25px 130px 1px 130px;
+  margin: 25px 120px 1px 120px;
   border-left: 3px solid red;
 }
 
@@ -53,10 +53,20 @@
   .classDayTimeWelcomeBlock {   
     margin: 25px 0px 5px 0px;    
   }
+  .classDayTime{
+    /* margin: 25px 130px 1px 130px; */
+    margin: 25px 0px 5px 0px; 
+  }
 }
 
 @media (max-width: 768px) {
   .classDayTimeWelcomeBlock {
     display: none;
   }
+}
+@media (max-width: 600px) {
+  .rightBlockNews {
+    display: flex;
+    flex-direction: column;
+}
 }

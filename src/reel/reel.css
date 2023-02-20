@@ -6,28 +6,40 @@
   font-size: 22px;
 }
 
+.blockRelativReel {
+  position: relative;
+  margin-top: 10px;
+}
+
 .classReel {
   display: flex;
   height: 450px;
 }
 
 .classReelBlock {
-    position: absolute;
+  position: absolute;
+  display: flex;
+  top: 25%;
+  gap: 3%;
+  margin: 0 8%;
+}
+
+@media (max-width: 500px) {
+  .classReelBlock {
+    flex-direction: column;
+    margin: 0 0;
+    top: 25%;
+    gap: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .classReelBlock {
     display: flex;
-    top: 25%; 
-    gap: 3%;
-    margin: 0 8%;  
-}
-
-.blockRelativReel{
-    position: relative;
-}
-
-@media (max-width: 500px){
-    .classReelBlock {
-        flex-direction: column;
-        margin: 0 0;
-        top: 25%; 
-        gap: 0;
-}
+    flex-direction: column;
+  }
+  .classReel {
+    display: flex;
+    /* height: 1500px; */
+  }
 }

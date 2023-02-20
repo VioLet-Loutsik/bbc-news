@@ -18,7 +18,7 @@ const Reel = () => {
 
   return (
     <div className="blockRelativReel">
-          <div className="reelText">
+      <div className="reelText">
         <h1>REEL</h1>
         <p>The most amazing videos from the BBC</p>
       </div>

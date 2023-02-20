@@ -10,7 +10,7 @@ const EditorPicksTemplate = ({ image, title, description, text, id }) => {
         <div className="imageEditorText">
           <h1>{title}</h1>
           <h3>{description}</h3>
-          <h5>{text}</h5>
+          <p className="textEditNews">{text}</p>
         </div>
       </div>
     </div>

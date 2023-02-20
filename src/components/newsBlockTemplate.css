@@ -2,29 +2,32 @@
   padding: 0;
   margin: 0;
 }
-.newsBlockTemplate {
-  padding: 6px;
-}
+/* .newsBlockTemplate {
+margin-left: 10px;
+} */
 
-.newsBlockImg {
-  width: 100%;
-  height: 30%;
+.classBlockText{
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .classTitle {
-  padding-top: 10px;
-  font-size: 25px;
   color: rgb(47, 47, 46);
-}
-.classDescription {
-  padding-bottom: 10px;
-  height: 50px;
 }
 
 .classText {
+
   font-size: 17px;
   text-transform: uppercase;
   color: rgb(75, 74, 74);
   padding-left: 10px;
   border-left: 2px solid blue;
+}
+
+@media (max-width: 1200px) {
+  .newsBlockTemplate {
+    padding: 0px;
+  }
 }

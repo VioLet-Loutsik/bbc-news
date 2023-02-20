@@ -6,8 +6,8 @@ const NewsBlockTemplate = ({ image, title, description, text }) => {
       <div>
         <img src={image} alt="NO IMAGE" className="newsBlockImg" />
       </div>
-      <div>
-        <h2 className="classTitle">{title}</h2>
+      <div className="classBlockText">
+        <h3 className="classTitle">{title}</h3>
         <p className="classDescription">{description}</p>
         <p className="classText">{text}</p>
       </div>

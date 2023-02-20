@@ -1,19 +1,30 @@
-.editorsFirstNews{
-    position: relative;
+.editorsFirstNews {
+  position: relative;
 }
-
-.imageEditorText{
-    position: absolute;
-    bottom: 6%;
-    left: 3%;
-    color: aliceblue;
-    font-size: large;
-    line-height: 200%;
-    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+.imageEditorPick {
+  position: relative;
+}
+.imageEditorText {
+  position: absolute;
+  padding-left: 10px;
+  bottom: 10px;
+  font-size: medium;
+  line-height: 200%;
+  color: rgb(214, 222, 230);
+  font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+}
+.textEditNews {
+  text-transform: uppercase; 
+  font-size: 17px;; 
+  color: grey;
+  border-left: 2px solid red;
+  padding-left: 3%;
 }
 @media (max-width: 1200px) {
-    .imageEditorText{
-        position: relative;
-        color: black;
-}
+  .imageEditorText {
+    position: relative;
+    color: black;
+    padding-top: 10px;
+    font-size: small;
+  }
 }

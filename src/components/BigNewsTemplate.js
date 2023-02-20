@@ -11,7 +11,7 @@ const BigNewsTemplate = ({ image, title, description, text, number }) => {
         <div className="whiteTextBigBlock">
           <h3>{title}</h3>
           <p className="descriptionBigBlock">{description}</p>
-          <h6>{text}</h6>
+          <h5 className="bigblockText">{text}</h5>
         </div>
       </div>
     </div>
