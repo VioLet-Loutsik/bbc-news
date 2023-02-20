@@ -10,7 +10,7 @@ export const welcomeData = [
     {
         image: news1,
         title: 'GUkraine war: Russia must be defeated but not crushed, Macron says',
-        description: 'In a speech to world leaders, Emmanuel Macron did not shy away from mentioning Russia-Ukraine peace talks as a final goal',
+        description: 'Emmanuel Macron did not shy away from mentioning Russia-Ukraine peace talks as a final goal',
         text: 'Travel',
         id: 1,
     },

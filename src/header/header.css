@@ -118,3 +118,8 @@ i.fa {
     display: none;
   }
 }
+@media (max-width: 1200px){
+  .topBlock {
+      padding: 10px 60px;
+  }
+}

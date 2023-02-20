@@ -1,11 +1,20 @@
 .welcomeBlock {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 10px 120px;
+  gap: 10px;
+  margin: 10px 130px;
   color: aliceblue;
 }
-
-.classDayTime {
+.classDayTimeWelcomeBlock {
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+  font-weight: 500;
+  color: rgb(107, 106, 106);
+  margin: 25px 130px 1px 130px;
+  border-left: 3px solid red;
+}
+.classDayTime{
   display: flex;
   justify-content: space-between;
   font-size: 23px;
@@ -21,15 +30,15 @@
   color: rgb(67, 66, 66);
 }
 
-.leftBlockNews {
-  padding: 10px 5px 10px 10px;
-}
+/* .leftBlockNews {
+  padding: 10px 5px 10px 0px;
+} */
 
 .rightBlockNews {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
-  padding: 10px 10px 10px 5px;
+  /* padding: 10px 10px 10px 0px; */
 }
 
 @media (max-width: 1200px) {
@@ -41,10 +50,13 @@
   .rightBlockNews {
     width: 100%;
   }
+  .classDayTimeWelcomeBlock {   
+    margin: 25px 0px 5px 0px;    
+  }
 }
 
 @media (max-width: 768px) {
-  .classDayTime {
+  .classDayTimeWelcomeBlock {
     display: none;
   }
 }

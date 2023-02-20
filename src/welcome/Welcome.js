@@ -30,7 +30,7 @@ const Welcome = () => {
   });
   return (
     <>
-      <div className="classDayTime">
+      <div className="classDayTimeWelcomeBlock">
         <p className="titleHeader">Welcome to BBC.com</p>
         <p>Thursday, 2 February</p>
       </div>

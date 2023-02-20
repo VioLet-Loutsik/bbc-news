@@ -7,7 +7,7 @@ export const newsData = [
     {
         image: news6,
         title: 'Syrian earthquake victims being sent home from Turkey for burial',
-        description: 'How are you leaving me behind? You were the only reason that I stayed alive... How can I breathe now?.',
+        description: 'How are you leaving me behind? You were the only reason that I stayed alive.',
         text: 'Europe',
         id: 1,
     },
@@ -21,7 +21,7 @@ export const newsData = [
     {
         image: news8,
         title: 'Russia planning offensive, says Ukraine',
-        description: 'The US has "formally determined" that Russia had committed crimes against humanity in Ukraine',
+        description: 'The US has "formally determined" that Russia had committed crimes',
         text: 'Europe',
         id: 3,
     },
