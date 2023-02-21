@@ -76,7 +76,7 @@
   height: 70%;
   background-color: rgb(87, 87, 90);
   transition: 1s;
-    /* border: 2px solid rgb(0, 38, 255); */
+  /* border: 2px solid rgb(0, 38, 255); */
 }
 
 .searchBut:hover {
@@ -93,7 +93,6 @@ i.fa {
   z-index: 1;
 }
 
-
 @media (max-width: 1400px) {
   .searchBut {
     display: none;
@@ -106,20 +105,21 @@ i.fa {
   }
 
   /* .signIn */
-  input  {
+  input {
     display: none;
   }
-  .searchBlock{
+  .searchBlock {
     width: fit-content;
   }
 }
-@media (max-width: 1050px ){
+@media (max-width: 1050px) {
   .signIn {
     display: none;
   }
 }
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .topBlock {
-      padding: 10px 60px;
+    padding: 10px 60px;
   }
 }
+

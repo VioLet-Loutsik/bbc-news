@@ -1,14 +1,1 @@
 
-.newsBlock{
-display:grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 2px;
-/* margin: 10px 150px; */
-/* border: 2px solid red; */
-}
-
-@media (max-width: 1200px) {
-    .newsBlock{
-        margin: 0 0;
-}
-}

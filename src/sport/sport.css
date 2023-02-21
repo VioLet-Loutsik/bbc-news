@@ -1,15 +1,21 @@
+.newsBlock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 10px 120px;
+}
 
-.newsBlock{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin: 10px 120px;
-    }
-
-    @media (max-width: 1200px) {
-        .newsBlock{
-            margin: 0 0;
-    }
-    
-    }
-    
+@media (max-width: 1200px) {
+  .newsBlock {
+    margin: 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .newsBlock {
+    display: flex;
+    flex-direction: column;
+  }
+  .classDayTime{
+  padding-left: 30px;
+  }
+}

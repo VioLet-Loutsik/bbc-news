@@ -229,3 +229,23 @@
         display: block;
       }
   }
+
+  @media (max-width: 696px) {
+   #menuSportBottom,
+   #menuNewsBottom,
+   #menuHomeSecondBottom{
+    display: none;
+   }
+   #menuSport,
+   #menuNews,
+   #menuHome{
+    display: block;
+   }
+   .menubottom { 
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+}
+
+  

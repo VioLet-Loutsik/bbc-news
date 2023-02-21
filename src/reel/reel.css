@@ -13,7 +13,7 @@
 
 .classReel {
   display: flex;
-  height: 450px;
+    height: 450px;
 }
 
 .classReelBlock {
@@ -34,12 +34,28 @@
 }
 
 @media (max-width: 576px) {
-  .classReelBlock {
-    display: flex;
-    flex-direction: column;
-  }
+  
   .classReel {
     display: flex;
     /* height: 1500px; */
+  }
+}
+@media (max-width: 768px) {
+  .classReel {
+      display: none;
+    
+  }
+  .classReelBlock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .blockRelativReel {
+    position: relative;
+    margin-top: 30px;
+  }
+  .reelText {
+    position: relative;
+     color: rgb(17, 17, 17);  
   }
 }

@@ -55,6 +55,9 @@ const Header = () => {
       </div>
       <div className={hiddenblocks}>
         <ul className="menubottom">
+        <li className="menuList" id="menuHome">Home</li>
+          <li className="menuList" id="menuNews">News</li>
+          <li className="menuList" id="menuSport">Sport</li>
           <li className="menuList" id="menuReel">Reel</li>
           <li className="menuList" id="menuWorklife">Worklife</li>
           <li className="menuList" id="menuTravel">Travel</li>
