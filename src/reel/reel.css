@@ -1,23 +1,22 @@
 .reelText {
-  position: absolute;
+  /* position: absolute; */
   padding-left: 8%;
   padding-top: 2%;
-  color: white;
+  color: rgb(218, 10, 10);
   font-size: 22px;
+  /* border: 2px solid red; */
 }
 
 .blockRelativReel {
-  position: relative;
-  margin-top: 10px;
-}
-
-.classReel {
-  display: flex;
-    height: 450px;
+  /* position: relative; */
+  /* margin-top: 10px; */
+  /* border: 2px solid rgb(22, 220, 12); */
+  background-image: url(../images/reelFont1.jpg);
+  background-size: cover;
 }
 
 .classReelBlock {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   top: 25%;
   gap: 3%;

@@ -4,6 +4,7 @@ import "./news.css";
 
 const News = () => {
   const newsPage = newsData.map((e, i) => {
+    console.log(e);
     return (
       <NewsBlockTemplate
         image={e.image}

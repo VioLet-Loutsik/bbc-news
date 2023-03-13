@@ -1,7 +1,7 @@
 import { reelData } from "../datanews/ReelData";
 import ReelBlockTemplate from "../components/ReelBlockTemplate";
 import "./reel.css";
-import reelFont1 from "../images/reelFont1.jpg";
+// import reelFont1 from "../images/reelFont1.jpg";
 
 const Reel = () => {
   const newsReelData = reelData.map((e) => {
@@ -23,7 +23,7 @@ const Reel = () => {
         <p>The most amazing videos from the BBC</p>
       </div>
       <div className="classReel">
-        <img src={reelFont1} alt="NO IMAGE" />
+        {/* <img src={reelFont1} alt="NO IMAGE" /> */}
       </div>
       <div className="classReelBlock">{newsReelData}</div>
     </div>
